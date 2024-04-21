@@ -8,23 +8,43 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\attach-file.png" />
+    <None Remove="Images\happiness.png" />
     <None Remove="Images\menu.png" />
     <None Remove="Images\menu1.png" />
+    <None Remove="Images\mic.png" />
     <None Remove="Images\office-push-pin.png" />
+    <None Remove="Images\people.png" />
     <None Remove="Images\search-interface-symbol.png" />
+    <None Remove="Images\telegram.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\attach-file.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\happiness.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\menu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\menu1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\mic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\people.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\office-push-pin.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\search-interface-symbol.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\telegram.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

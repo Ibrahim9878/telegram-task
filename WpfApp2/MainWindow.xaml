@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="700">
+        Title="Telegram" Height="450" Width="700">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width=".55*"/>
@@ -24,136 +24,193 @@
                     </Grid>
                 </GroupBox>
             </StackPanel>
-            <ScrollViewer Grid.Row="1" ScrollViewer.VerticalScrollBarVisibility="Auto">
-                <StackPanel >
-                    <StackPanel Orientation="Horizontal">
-                        <Grid>
-                            <Ellipse Margin="5" Width="40" Height="40" Fill="red" Stroke="Black" StrokeThickness="2"
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <ScrollViewer Width="250" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                    <StackPanel >
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="red" Stroke="Black" StrokeThickness="2"
                  HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                            <TextBlock Margin="18" Text="ES" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
-                        </Grid>
-                        <StackPanel Width="150">
-                            <Label Content="Eva Summer" FontSize="15" Width="200"/>
-                            <Label Content="Reminds me" FontSize="10" Width="200" Foreground="Gray"/>
-                        </StackPanel>
-                        <StackPanel>
-                            <Label Margin="5" Content="11:00" FontSize="10" FontWeight="Heavy"/>
-                            <Image Source="/Images/office-push-pin.png" Width="15" />
+                                <TextBlock Margin="18" Text="ES" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Eva Summer" FontSize="15" Width="200"/>
+                                <Label Content="Reminds me" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="11:00" FontSize="10" FontWeight="Heavy"/>
+                                <Image Source="/Images/office-push-pin.png" Width="15" />
 
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Orange" Stroke="Black" StrokeThickness="2"
+                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="18" Text="AS" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
+                                <Label Content="This is Amazing" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="10:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="YellowGreen" Stroke="Black" StrokeThickness="2"
+                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="15" Text="MA" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
+                                <Label Content="Everything is perfect" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="13:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Green" Stroke="Black" StrokeThickness="2"
+                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="18" Text="EC" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Width="20" Source="/Images/people.png" />
+                                    <Label Content="Evening Club" FontSize="15" Width="200"/>
+                                </StackPanel>
+                                <Label Content="Club for group students" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="14:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Magenta" Stroke="Black" StrokeThickness="2"
+                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="17" Text="MF" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Maga Fetullayev" FontSize="15" Width="200"/>
+                                <Label Content="Giminawowo" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="00:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Blue" Stroke="Black" StrokeThickness="2"
+                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="15" Text="HM" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Huseyn Memmedov" FontSize="15" Width="200"/>
+                                <Label Content="Football👍" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="22:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Cyan" Stroke="Black" StrokeThickness="2"
+HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="17" Text="AA" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Aylin Agayarov" FontSize="15" Width="200"/>
+                                <Label Content="Life is good" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="05:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Yellow" Stroke="Black" StrokeThickness="2"
+HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="15" Text="QX" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Qezenfer Xaliqov" FontSize="15" Width="200"/>
+                                <Label Content="😂😂" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="21:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Ellipse Margin="5" Width="40" Height="40" Fill="Chocolate" Stroke="Black" StrokeThickness="2"
+HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <TextBlock Margin="15" Text="SG" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
+                            </Grid>
+                            <StackPanel Width="150">
+                                <Label Content="Saul GoodMan" FontSize="15" Width="200"/>
+                                <Label Content="Better Call Saul" FontSize="10" Width="200" Foreground="Gray"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <Label Margin="5" Content="09:00" FontSize="10" FontWeight="Heavy"/>
+
+                            </StackPanel>
                         </StackPanel>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Grid>
-                            <Ellipse Margin="5" Width="40" Height="40" Fill="Orange" Stroke="Black" StrokeThickness="2"
-                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                            <TextBlock Margin="18" Text="AS" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
-                        </Grid>
-                        <StackPanel Width="150">
-                            <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
-                            <Label Content="This is Amazing" FontSize="10" Width="200" Foreground="Gray"/>
-                        </StackPanel>
-                        <StackPanel>
-                            <Label Margin="5" Content="10:00" FontSize="10" FontWeight="Heavy"/>
-
-                        </StackPanel>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Grid>
-                            <Ellipse Margin="5" Width="40" Height="40" Fill="YellowGreen" Stroke="Black" StrokeThickness="2"
-                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                            <TextBlock Margin="15" Text="MA" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
-                        </Grid>
-                        <StackPanel Width="150">
-                            <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
-                            <Label Content="This is Amazing" FontSize="10" Width="200" Foreground="Gray"/>
-                        </StackPanel>
-                        <StackPanel>
-                            <Label Margin="5" Content="10:00" FontSize="10" FontWeight="Heavy"/>
-
-                        </StackPanel>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Grid>
-                            <Ellipse Margin="5" Width="40" Height="40" Fill="YellowGreen" Stroke="Black" StrokeThickness="2"
-                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                            <TextBlock Margin="15" Text="MA" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
-                        </Grid>
-                        <StackPanel Width="150">
-                            <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
-                            <Label Content="This is Amazing" FontSize="10" Width="200" Foreground="Gray"/>
-                        </StackPanel>
-                        <StackPanel>
-                            <Label Margin="5" Content="10:00" FontSize="10" FontWeight="Heavy"/>
-
-                        </StackPanel>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Grid>
-                            <Ellipse Margin="5" Width="40" Height="40" Fill="YellowGreen" Stroke="Black" StrokeThickness="2"
-                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                            <TextBlock Margin="15" Text="MA" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
-                        </Grid>
-                        <StackPanel Width="150">
-                            <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
-                            <Label Content="This is Amazing" FontSize="10" Width="200" Foreground="Gray"/>
-                        </StackPanel>
-                        <StackPanel>
-                            <Label Margin="5" Content="10:00" FontSize="10" FontWeight="Heavy"/>
-
-                        </StackPanel>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Grid>
-                            <Ellipse Margin="5" Width="40" Height="40" Fill="YellowGreen" Stroke="Black" StrokeThickness="2"
-                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                            <TextBlock Margin="15" Text="MA" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White"/>
-                        </Grid>
-                        <StackPanel Width="150">
-                            <Label Content="Alexandra Smith" FontSize="15" Width="200"/>
-                            <Label Content="This is Amazing" FontSize="10" Width="200" Foreground="Gray"/>
-                        </StackPanel>
-                        <StackPanel>
-                            <Label Margin="5" Content="10:00" FontSize="10" FontWeight="Heavy"/>
-
-                        </StackPanel>
-                    </StackPanel>
-                </StackPanel>
-            </ScrollViewer>
-        </Grid>
-    </Grid>
-<!--
-    <Grid.RowDefinitions>
-            <RowDefinition Height=".15*"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width=".7*" />
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <StackPanel Orientation="Horizontal" Grid.Column="0">
-                <Image Source="Images/menu.png" Width="40" Height="18"/>
-                <GroupBox Header="Search" BorderBrush="Cyan" BorderThickness="2" Width="200" Height="55">
-                    <Grid>
-                        <TextBox Name="SearchTextBox" FontSize="20" BorderThickness="0"/>
-                    </Grid>
-                </GroupBox>
+                </ScrollViewer>
             </StackPanel>
-            <Grid Grid.Column="1">
-                <StackPanel Width="200" HorizontalAlignment="Left">
-                    <Label Name="HeaderName" Content="Eva Summer" FontSize="13" FontWeight="Bold"/>
-                    <Label Name="Online" Content="online" FontSize="10" Margin="1" Foreground="blue"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <Image Source="/Images/search-interface-symbol.png" Height="25"/>
-                   <Image Source="/Images/menu1.png" Height="25"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <StackPanel>
+                        <Label Margin="0 0 0 4" Content="Eva Summer" FontWeight="Bold"/>
+                        <Label Margin="0 0 0 4" Content="Online" FontSize="10" Foreground="Blue"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Image Source="/Images/search-interface-symbol.png" Width="20"/>
+                        <Image Source="/Images/menu1.png" Width="20"/>
 
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1" Background="LightGray" />
+            <Grid Grid.Row="2">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/attach-file.png" Width="25" />
+                    <Grid Margin="5" >
+                        <Label Width="100" HorizontalAlignment="Left" Content="Write Message" Foreground="Gray" Panel.ZIndex="1" VerticalAlignment="Center"/>
+                        <TextBox Width="350"/>
+                    </Grid>
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Image Margin="3" Source="/Images/happiness.png" Width="30" Height="40"/>
+                        <Image Margin="3" Source="/Images/mic.png" Width="30" Height="40" />
+
+                    </StackPanel>
                 </StackPanel>
             </Grid>
+
         </Grid>
-    -->
+    </Grid>
 </Window>

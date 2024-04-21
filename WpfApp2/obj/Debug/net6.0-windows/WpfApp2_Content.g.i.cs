@@ -8,9 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/attach-file.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/happiness.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menu1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/mic.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/people.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/office-push-pin.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/search-interface-symbol.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/telegram.png")]
 
 
